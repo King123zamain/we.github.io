@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <!-- GOOGLE Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap" rel="stylesheet">
+
+
+
+    <title>Frontend Mentor | Social proof section</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        justify-content:center;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+
+      body {
+        font-family: 'Spartan', sans-serif;
+        font-size: 10px;
+      }
+
+      #social-master {
+        padding:0;
+        margin:0;
+      }
+
+      
+      div .main-heading {
+        color:hsl(300, 43%, 22%);
+        font-size: 40px;
+        font-weight:700;
+        padding:20px 20px 20px 20px;
+        margin:50px;
+        height:10px;
+        width:350px;
+      }
+
+      .sub-heading {
+        color:hsl(303, 10%, 53%);
+        font-weight: 500;
+        padding:75px;
+        width: 300px;
+      }
+
+      .first-star {
+        background-color:hsl(300, 24%, 96%);
+        color:hsl(300, 43%, 22%);
+        font-weight: 700;
+        width:400px;
+        height:40px;
+        border-radius:4px;
+        transform:translate(600px,-220px);  
+      }
+  
+      .second-star {
+        background-color:hsl(300, 24%, 96%);
+        color: hsl(300, 43%, 22%);
+        font-weight: 700;
+        width:400px;
+        height:40px;
+        border-radius:4px;
+        transform:translate(650px,-200px);  
+
+      }
+
+      .third-star {
+        background-color: hsl(300, 24%, 96%);
+        color:hsl(300, 43%, 22%);
+        font-weight: 700;
+        width:400px;
+        height:40px;
+        border-radius:4px;
+        transform:translate(700px,-180px);  
+        
+      }
+      /* For a Specific Case */
+      .rating-star{
+        display:inline-block;
+        padding: 0 2.5rem 0 0rem;
+      }
+
+      .rating-star img {
+        padding-left: 12px;
+        padding-top:10px;
+      }
+
+      .text {
+        display: inline-block;
+        font-size:11px;
+        padding:5px;
+      }
+      
+      /* Custom Cards */
+
+      .first-card{
+        background-color:hsl(300, 43%, 22%);
+        border-radius: 10px;
+        font-size: 11.35px;
+        width:250px;
+        height:200px;
+        padding:22px;
+        box-sizing:border-box;
+        transform:translate(100px,-100px);
+      }
+
+      .second-card {
+        background-color:hsl(300, 43%, 22%);
+        border-radius: 10px;
+        font-size: 11.35px;
+        width:250px;
+        height:200px;
+        padding:22px;
+        box-sizing:border-box;
+        transform:translate(400px,-280px);
+        
+      }
+
+      .third-card {
+        background-color:hsl(300, 43%, 22%);
+        border-radius: 10px;
+        font-size: 11.35px;
+        width:250px;
+        height:200px;
+        padding:22px;
+        box-sizing:border-box;
+        transform:translate(700px,-450px);
+      
+      }
+
+      .reviews {
+        margin-bottom: 25px;
+      }
+
+      .image {
+        border-radius: 100%;
+        float: left;
+        margin-right: 1.4rem;
+        width: 2rem;
+      }
+
+      
+      .customer-name {
+        color:hsl(0, 0%, 100%);
+        font-weight: 700;
+      }
+
+      .customer-profile {
+        color: hsl(333, 80%, 67%)
+      }
+
+      
+      .customer-assessment {
+        color: hsl(0, 0%, 100%);
+        font-weight: 400;
+      }
+
+   
+    </style>
+    
+  </head>
+  <body>
+    <section id="social-master">
+      <div class="container">
+
+
+
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="main-heading">10,000+ of our users love our products.</div>
+            <p class="sub-heading">We only provide great products combined with excellent customer service.
+              See what our satisfied customers are saying about our services.</p>
+          </div>
+        
+          <div class="col-md-6">
+            <div class="first-star">
+                <div class="rating-star">
+                  <img src="images/icon-star.svg" alt="star-img">
+                  <img src="images/icon-star.svg" alt="star-img">
+                  <img src="images/icon-star.svg" alt="star-img">
+                  <img src="images/icon-star.svg" alt="star-img">
+                  <img src="images/icon-star.svg" alt="star-img">
+                </div>
+                <p class="text">Rated 5 Stars in Reviews</p>
+            </div>
+            
+
+            <div class="second-star">
+                <div class="rating-star">
+                  <img src="images/icon-star.svg" alt="star-img">
+                  <img src="images/icon-star.svg" alt="star-img">
+                  <img src="images/icon-star.svg" alt="star-img">
+                  <img src="images/icon-star.svg" alt="star-img">
+                  <img src="images/icon-star.svg" alt="star-img">
+                </div>
+                <p class="text">Rated 5 Stars in Report Guru</p>
+            </div>
+
+            <div class="third-star">
+                <div class="rating-star">
+                  <img src="images/icon-star.svg" alt="star-img">
+                  <img src="images/icon-star.svg" alt="star-img">
+                  <img src="images/icon-star.svg" alt="star-img">
+                  <img src="images/icon-star.svg" alt="star-img">
+                  <img src="images/icon-star.svg" alt="star-img">
+                </div>
+                <p class="text">Rated 5 Stars in BestTech</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-two">
+
+        <div class="row">
+          <div class="col-md-4">
+            <div class="first-card">
+                <div class="reviews">
+                  <img class="image" src="images/image-colton.jpg" alt="">
+                  <p class="customer-name">Colton Smith</p>
+                  <p class="customer-profile">Verified Buyer</p>
+                </div>
+                <p class="customer-assessment">"We needed the same printed design as the one we had ordered a week prior.
+                  Not only did they find the original order, but we also received it in time.
+                  Excellent!"
+                </p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="second-card">
+                <div class="reviews">
+                  <img class="image" src="images/image-irene.jpg" alt="">
+                  <p class="customer-name">Irene Roberts</p>
+                  <p class="customer-profile">Verified Buyer</p>
+                </div>
+                <p class="customer-assessment">"Customer service is always excellent and very quick turn around. Completely
+                  delighted with the simplicity of the purchase and the speed of delivery."
+                </p>
+            </div>
+          </div>
+          
+          
+          <div class="col-md-4">
+            <div class="third-card">
+                <div class="reviews">
+                  <img class="image" src="images/image-anne.jpg" alt="">
+                  <p class="customer-name">Anne Wallace</p>
+                  <p class="customer-profile">Verified Buyer</p>
+                </div>
+                <p class="customer-assessment">"Put an order with this company and can only praise them for the very high
+                  standard. Will definitely use them again and recommend them to everyone!"
+                </p>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+    </section>
+  
+
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>
+      Coded by
+      <a href="#">Kingsley</a>.
+    </div>
+  </body>
+</html>
